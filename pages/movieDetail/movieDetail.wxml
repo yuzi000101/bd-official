@@ -1,0 +1,15 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class="movieDetailContainer">
+	<image class="movieImg" src="{{detailMovieArr.images.large}}"></image>
+	<text class="movieTitle">{{detailMovieArr.original_title}}</text>
+	<view class="movieDetail">
+		<text>评分:{{detailMovieArr.rating.average}}</text>
+    <view class="line"></view>
+		<text>导演:</text>
+    <text>{{detailMovieArr.directors[0].name}}</text>
+    <view class="line"></view>
+		<text>演员:  </text>
+    <text class="actors">{{detailMovieArr.casts[0].name}} / {{detailMovieArr.casts[1].name}} / {{detailMovieArr.casts[2].name}}</text>
+	</view>
+	<button>我要观影</button>
+</view>

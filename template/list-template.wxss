@@ -1,0 +1,54 @@
+/* template/list-template.wxss */
+.tmpContainer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx dashed #aaaaaa;
+  margin-top: 20rpx;
+}
+
+.avatar_data {
+  padding: 10rpx;
+  margin-top: 20rpx;
+}
+
+.avatar_data image {
+  width: 60rpx;
+  height: 60rpx;
+  padding-right: 10rpx;
+  vertical-align: middle;
+}
+
+.avatar_data text {
+  font-size: 32rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-left: 10rpx;
+}
+
+.contentImg {
+  width: 100%;
+  height: 400rpx;
+}
+
+.content {
+  font-size: 32rpx;
+  text-indent: 64rpx;
+}
+
+.collection_hobby {
+  padding: 10rpx;
+}
+
+.collection_hobby image {
+  width: 32rpx;
+  height: 32rpx;
+  padding-right: 10rpx;
+  vertical-align: middle;
+}
+
+.collection_hobby text {
+  font-size: 28rpx;
+}
